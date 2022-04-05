@@ -9,6 +9,11 @@ Write EXE file without dependencies to merge two or more PDF files
 
 This can replace a .Net library with the same purpose. Just deploy this EXE instead
 
+# Compile
+
+```
+pyinstaller --onefile --distpath .\ .\pdfmerge.py
+```
 
 # Usage
 
